@@ -1,0 +1,167 @@
+body {
+  background: rgba(212, 117, 8, 0.753);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: rgb(235, 217, 201);
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header img {
+  margin: 0 0 0 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  padding: 0 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited,
+a:link,
+a:active {
+  color: #000;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#hero h2 {
+  text-align: center;
+  font-style: italic;
+}
+
+#hero img {
+  height: 30vh;
+  min-width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+#pasteles {
+  width: 50%;
+  float: left;
+}
+
+#adornos {
+  width: 50%;
+  float: right;
+}
+
+#pasteles,
+#adornos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#pasteles ul,
+#adornos ul {
+  display: flex;
+  flex-direction: column;
+  background: rgb(235, 217, 201);
+  border: 1px solid rgb(235, 217, 201);
+  border-radius: 2px;
+  padding: 10px;
+  font-style: italic;
+}
+
+#pasteles li,
+#adornos li {
+  padding: 0 0 10px 0;
+}
+
+#pedido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  background: rgb(235, 217, 201);
+  border: 1px solid rgb(235, 217, 201);
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  width: 50%;
+}
+
+#nombre,
+#telefono,
+#email {
+  border: none;
+  border-bottom: 1px solid #000;
+  background: none;
+  width: 60%;
+  text-align: center;
+  margin: 5px 0;
+}
+
+#submit {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: rgba(212, 117, 8, 0.753);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+}
+
+#submit:hover {
+  background: #000;
+}
+
+#contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#contacto h4,
+#contacto p {
+  margin: 10px 0 0;
+}
+
+iframe {
+  padding: 20px;
+}
+
+#stock,
+#pedidos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: rgb(235, 217, 201);
+  padding: 10px;
+}

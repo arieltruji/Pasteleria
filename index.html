@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Pasteleria Cisne Azul</title>
+  </head>
+  <body>
+    <header>
+      <a href="/index.html">
+        <img src="./images/logo.png" alt="" />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#pasteles">Pasteles</a></li>
+          <li><a href="#adornos">Adornos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="hero">
+      <h1>Pastelería cisne azul</h1>
+      <h2>"Llevando el mejor sabor a su mesa"</h2>
+      <img src="./images/hero.jpg" alt="pasteles" />
+    </section>
+    <section id="pasteles">
+      <h3>Pasteles</h3>
+      <p>Elige el que mas te guste:</p>
+      <ul>
+        <li>Cheesecake ................. $6</li>
+        <li>Carrot Cake ................ $8</li>
+        <li>Torta Negra ................ $8</li>
+        <li>Key Lime Pie ............... $10</li>
+      </ul>
+    </section>
+    <section id="adornos">
+      <h3>Adornos</h3>
+      <p>Ahora puede adornar tu pastel de la mejor manera:</p>
+      <ul>
+        <li>Bolsa y moño para regalo ................................... $2</li>
+        <li>
+          Tarjeta de felicitaciones ....................................... $4
+        </li>
+        <li>Foto impresa con diseño personalizado .......... $5</li>
+        <li>Caja regular con nuestro logo ........................... $3</li>
+      </ul>
+    </section>
+    <section id="pedido">
+      <h3>Realiza tu pedido</h3>
+      <form action="/table.html" method="get">
+        <p>Elige los sabores que desees:</p>
+        <label for="cheesecake">Cheesecake</label>
+        <input type="checkbox" name="cheesecake" id="cheesecake" />
+        <label for="carrot">Carrot Cake</label>
+        <input type="checkbox" name="carrot" id="carrot" />
+        <label for="negra">Torta Negra</label>
+        <input type="checkbox" name="negra" id="negra" />
+        <label for="lime">Key Lime Pie</label>
+        <input type="checkbox" name="lime" id="lime" />
+        <p>Elige los adornos que desees:</p>
+        <label for="bolsa">Bolsa y moño para regalo</label>
+        <input type="checkbox" name="bolsa" id="bolsa" />
+        <label for="tarjeta">Tarjeta de felicitaciones</label>
+        <input type="checkbox" name="tarjeta" id="tarjeta" />
+        <label for="foto">Foto impresa con diseño personalizado</label>
+        <input type="checkbox" name="foto" id="foto" />
+        <label for="caja">Caja regular con nuestro logo</label>
+        <input type="checkbox" name="caja" id="caja" />
+        <p>Ingresa tus datos:</p>
+        <input type="text" name="" id="nombre" placeholder="Nombre" />
+        <input type="number" name="" id="telefono" placeholder="Telefono" />
+        <input
+          type="email"
+          name=""
+          id="email"
+          placeholder="Correo electronico"
+        />
+        <input type="submit" id="submit" value="Enviar pedido" />
+      </form>
+    </section>
+    <section id="contacto">
+      <h3>Contacto</h3>
+      <h4>Direccion:</h4>
+      <p>Avenida 9 de Julio s/n</p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d784.2327683601196!2d-58.381405442845264!3d-34.60349579788367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1668383924456!5m2!1ses!2sar"
+        width="450"
+        height="400"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <h4>Telefono:</h4>
+      <p>4455-6677</p>
+      <h4>Horarios:</h4>
+      <p>Martes a Domingos de 8 a 18hs</p>
+    </section>
+  </body>
+</html>
